@@ -1,0 +1,24 @@
+// ini jangan di hapus untuk breakpoint dari boostrap
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+// ini jangan di hapus untuk breakpoint dari boostrap
+
+// Penggunaan Breakpoint begini
+
+@include media-breakpoint-up(xs) {
+  body {
+    background-color: red;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  body {
+    background-color: #aaa;
+  }
+}
