@@ -10,15 +10,32 @@ $grid-breakpoints: (
 // ini jangan di hapus untuk breakpoint dari boostrap
 
 // Penggunaan Breakpoint begini
+// media-breakpoint-up
+@include media-breakpoint-down(md) {
+  main {
+    .section-details-header {
+      background-color: #fff;
+      height: 500px;
+    }
 
-@include media-breakpoint-up(xs) {
-  body {
-    background-color: red;
+    .thubmail {
+      margin-top: -450px;
+    }
   }
 }
 
-@include media-breakpoint-up(xl) {
+@include media-breakpoint-down(sm) {
   body {
-    background-color: #aaa;
+    // background-color: blue;
+  }
+
+  main {
+    .section-details-header {
+      display: none;
+    }
+
+    .thubmail {
+      margin: 0;
+    }
   }
 }

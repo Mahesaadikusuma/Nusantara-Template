@@ -2,8 +2,12 @@
 
 * {
   font-family: "Poppins", "Montserrat", sans-serif;
-  list-style: none;
   text-decoration: none;
+}
+// #f6f8fd
+body {
+  background-color: #f6f8fd;
+  // height: 1000vh;
 }
 
 h1,
@@ -14,7 +18,7 @@ h5 {
   font-family: "Poppins", serif;
 }
 
-p {
+p,
+a {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
 }
