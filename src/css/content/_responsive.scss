@@ -11,6 +11,7 @@ $grid-breakpoints: (
 
 // Penggunaan Breakpoint begini
 // media-breakpoint-up
+
 @include media-breakpoint-down(md) {
   main {
     .section-details-header {
@@ -20,6 +21,15 @@ $grid-breakpoints: (
 
     .thubmail {
       margin-top: -450px;
+    }
+    .thumbnail{
+      .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 80px;
+        align-items: center;
+        justify-items: center;
+      }
     }
   }
 }
