@@ -73,7 +73,7 @@ main {
 
     .nusantara-deskripsi {
       margin-top: 20px;
-      background-color: #fff;
+      background-color: white !important;
       border-radius: 10px;
       padding: 2rem;
       text-align: justify;
@@ -176,12 +176,12 @@ main {
 
 // Halaman Home
 
-main{
+main {
   display: block;
   background-color: #fff;
   margin-top: 0.5rem;
   .carousel {
-    .carousel-item{
+    .carousel-item {
       width: 100%;
       max-height: 500px;
       object-fit: cover;
@@ -189,148 +189,145 @@ main{
     }
     .carousel-inner {
       .carousel-item {
-        figure{
-          .gd{
+        figure {
+          .gd {
             width: 100%;
-        max-height: 500px;
-        object-fit: cover;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+    h5 {
+      padding-right: 500px;
+      margin-top: 50px;
+    }
+    p {
+      padding-right: 500px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .card-popular {
+    .card {
+      .container {
+        align-items: center;
+        justify-items: center;
+        margin-top: 15px;
+        margin-bottom: 2px;
+      }
+      .card-img-top {
+        width: 100%;
         border-radius: 0.5rem;
-        margin-bottom: 1rem;
-
-          }
-
-        }
       }
-    }
-  h5{
-    padding-right: 500px;
-    margin-top: 50px;
-  }
-  p{
-    padding-right: 500px;
-    margin-bottom: 50px;
-  }
-}
-
-.card-popular{
-  .card{
-    .container{
-      align-items: center;
-      justify-items: center;
-      margin-top: 15px;
-      margin-bottom: 2px;
-    }
-    .card-img-top{
-      width: 100%;
-      border-radius: 0.5rem;
-
-    }
-    .card-body{
-      .container-upper-card{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .container-img{
-          grid-column: 5;
-          .img{
-            width: 44px;
-            height: 44px;
+      .card-body {
+        .container-upper-card {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          .container-img {
+            grid-column: 5;
+            .img {
+              width: 44px;
+              height: 44px;
+            }
           }
         }
       }
-      }
     }
   }
 
-.card-other-destination{
-  .card{
-    .container{
-      align-items: center;
-      justify-items: center;
-      margin-top: 15px;
-      margin-bottom: 2px;
-    }
-    .img{
-      width: 100%;
-      border-radius: 25px;
-
-    }
-    .card-body{
-      .container-upper-card{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .container-img{
-          grid-column: 5;
-          figure{
-            .top{
-              width: 100%;
-              max-height: 500px;
-              object-fit: cover;
-              border-radius: 0.5rem;
-              margin-bottom: 1rem;
-          }
+  .card-other-destination {
+    .card {
+      .container {
+        align-items: center;
+        justify-items: center;
+        margin-top: 15px;
+        margin-bottom: 2px;
+      }
+      .img {
+        width: 100%;
+        border-radius: 25px;
+      }
+      .card-body {
+        .container-upper-card {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          .container-img {
+            grid-column: 5;
+            figure {
+              .top {
+                width: 100%;
+                max-height: 500px;
+                object-fit: cover;
+                border-radius: 0.5rem;
+                margin-bottom: 1rem;
+              }
+            }
           }
         }
       }
-      }
     }
   }
 
-  .container-b{
+  .container-b {
     display: flex;
     margin-top: 18px;
     justify-content: center;
     align-items: center;
-  .button {
-    justify-content: center;
-    align-items: center;
-    display: block;
-    width: 44px;
-    height: 44px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    line-height: 25px;
-}
+    a {
+    }
+    .button {
+      justify-content: center;
+      align-items: center;
+      display: block;
+      width: 44px;
+      height: 44px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      line-height: 25px;
+    }
   }
 
-.thumbnail{
-  margin-top: 0.5rem;
-  .grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 80px;
-    align-items: center;
-    justify-items: center;
-    figure{
-      
-      .article{
-        width: 100%;
-        max-height: 300px;
-        object-fit: cover;
-        border-radius: 0.5rem;
+  .thumbnail {
+    margin-top: 0.5rem;
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 80px;
+      align-items: center;
+      justify-items: center;
+      figure {
+        .article {
+          width: 100%;
+          max-height: 300px;
+          object-fit: cover;
+          border-radius: 0.5rem;
+        }
       }
     }
   }
-}
 
-.nusantara-location {
-  margin-top: 20px;
-  img {
-    margin-top: -20px;
+  .nusantara-location {
+    margin-top: 20px;
+    img {
+      margin-top: -20px;
+    }
   }
-}
 
-.nusantara-ticket {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  .nusantara-ticket {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 
-  img {
-    margin-top: -20px;
+    img {
+      margin-top: -20px;
+    }
   }
-}
 
   .article {
     h3 {
@@ -352,7 +349,8 @@ main{
         flex-direction: column;
         justify-content: flex-end;
         padding: 1rem;
-        h5,p {
+        h5,
+        p {
           /* Font minimum, preferred and maximum value */
           font-size: clamp(var(--min), var(--val), var(--max));
         }
@@ -362,36 +360,41 @@ main{
           --max: 2rem;
           font-weight: bold;
         }
-        
+
         p {
           --min: 0.1rem;
-        --val: 0.5rem;
-        --max: 1rem; 
+          --val: 0.5rem;
+          --max: 1rem;
         }
-        
-
       }
     }
   }
 }
+// Halaman Home
 
 // Halaman More Destination
 
-main{
-  .header-more{
-    .container{
+main {
+  .header-more {
+    .container {
       h1 {
         font-size: 32px;
         font-weight: bold;
         text-align: center;
         color: rgb(64 64 64);
       }
+
+      h2 {
+        font-size: 18px;
+        margin: 20px 0;
+        font-weight: 300;
+      }
       h3 {
         display: flex;
-        text-align: center;
-        align-items: center;
+
         gap: 0.5rem;
-      }
       }
     }
   }
+}
+// Halaman More Destination
